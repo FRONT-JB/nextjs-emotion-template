@@ -7,6 +7,7 @@
 - [x] Typescript
 - [x] Eslint
 - [x] Prettier
+- [x] Emotion
 
 ---
 
