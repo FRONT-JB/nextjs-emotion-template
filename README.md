@@ -42,7 +42,7 @@ yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 **`Babel`**
 
 ```bash
-yarn add -D babel-eslint eslint-plugin-babel
+yarn add -D babel-eslint eslint-plugin-babel @babel/plugin-proposal-decorators
 ```
 
 ---
