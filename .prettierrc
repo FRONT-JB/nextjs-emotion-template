@@ -6,7 +6,6 @@
   "printWidth": 80,
   "eslintIntegration": true,
   "endOfLine": "auto",
-  "parser": "typescript",
   "useTabs": false,
   "arrowParens": "always"
 }

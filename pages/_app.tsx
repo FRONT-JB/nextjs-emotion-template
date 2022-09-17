@@ -1,11 +1,10 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import globalStyles from '@/styles/globalStyles';
+import theme from '@/styles/theme';
 import { ThemeProvider } from '@emotion/react';
 
-import { globalStyles } from '@/styles/globalStyles';
-import { theme } from '@/styles/theme';
-
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
@@ -18,6 +17,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </ThemeProvider>
     </>
   );
-}
+};
 
 export default MyApp;

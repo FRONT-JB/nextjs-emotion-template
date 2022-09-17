@@ -1,3 +1,5 @@
-import { Theme } from '@emotion/react';
+import type { Theme } from '@emotion/react';
 
-export const theme: Theme = {};
+const theme: Theme = {};
+
+export default theme;

@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 const Home: NextPage = () => {
   return (
-    <HomeContainer>
+    <HomeContainer isOpen={false}>
       <Text>NEXTJS Emotion</Text>
     </HomeContainer>
   );
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
 export default Home;
 
-const HomeContainer = styled.div`
+const HomeContainer = styled.div<{ isOpen: boolean }>`
   display: flex;
   justify-content: center;
   align-items: center;
